@@ -84,6 +84,7 @@ df[['Height','Weight']]=scaler.fit_transform(df[['Height','Weight']])
 df
 ```
 <img width="555" height="523" alt="image" src="https://github.com/user-attachments/assets/59bdcb8d-75d9-4525-a015-daba4549d0c3" />
+
 ```
 from sklearn.preprocessing import RobustScaler
 scaler = RobustScaler()
@@ -91,6 +92,7 @@ df3[['Height','Weight']]=scaler.fit_transform(df3[['Height','Weight']])
 df3.head()
 ```
 <img width="570" height="260" alt="image" src="https://github.com/user-attachments/assets/c71c3e71-f888-4e4a-b383-a84df0409e14" />
+
 ```
 df=pd.read_csv("/content/income(1) (1).csv")
 df.info()
@@ -177,6 +179,7 @@ rf = RandomForestClassifier(n_estimators=100, random_state=42)
 rf.fit(X_train, y_train)
 ```
 <img width="709" height="97" alt="image" src="https://github.com/user-attachments/assets/c7cea308-6646-4f7e-b75e-f70e3760b8fb" />
+
 ```
 y_pred = rf.predict(X_test)
 from sklearn.metrics import accuracy_score
