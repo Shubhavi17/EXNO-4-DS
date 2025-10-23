@@ -40,6 +40,7 @@ df_null_sum=df.isnull().sum()
 df_null_sum
 ```
 <img width="233" height="263" alt="image" src="https://github.com/user-attachments/assets/f937c125-c0c6-4eaa-a023-2d48d19b0d21" />
+
 ```
 df.dropna()
 ```
